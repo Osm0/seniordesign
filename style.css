@@ -1,0 +1,31 @@
+.box-color-scheme{
+    background-color: #dae8fc
+}
+
+.text-color-scheme{
+    color: #7ea6e0;
+}
+
+#header-text{
+	display:inline-block;
+	margin-left:5%;
+	color:#7ea6e0;
+
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 30px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.center-box{
+	margin:20% auto;
+	width:80%;
+}
+
+
+
