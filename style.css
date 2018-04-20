@@ -35,3 +35,9 @@
     background: white;
 }
 
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
+}
