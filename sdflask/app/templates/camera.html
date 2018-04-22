@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>Senior Design</title>
+	<link rel="icon"
+        type="image/png"
+        href="favicon-96x96.png">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script> 
+    	$(document).ready(function(){$("body").hide().fadeIn(1000);}); 
+    </script>
+
+</head>
+<body>
+    <div class = "container center-box box-color-scheme text-center">
+    <br>
+        <div class= "alignleft">
+            <a href = "home.html"><button type="button" class="btn btn-primary btn-xs"> Home </button></a>
+        </div>
+
+        <div class= "alignright">
+            <a href = "category.html"><button type="button" class="btn btn-primary btn-xs"> Back </button></a> 
+        </div> <div style="clear: both"></div>
+
+        <div style = "margin-top: 20%; margin-bottom: 20%">
+        <h1 class="text-color-scheme"> Upload Colorstrip Image</h1> <br> <br>
+        <div class = "text-center">
+            <a href = "category.html"><button type = "button" class="btn btn-default btn-lg"> Camera Roll </button></a><br><br>
+            <a href = "category.html"><button type = "button" class="btn btn-default btn-lg"> Take Photo </button></a>
+        </div>
+        </div>
+
+    </div>
+</body>
+
+
+

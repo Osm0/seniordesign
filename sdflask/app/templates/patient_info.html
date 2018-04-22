@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>Senior Design</title>
+	<link rel="icon"
+        type="image/png"
+        href="favicon-96x96.png">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script> 
+    	$(document).ready(function(){$("body").hide().fadeIn(1000);}); 
+    </script>
+
+</head>
+<body>
+    <h1 class = "text-color-scheme" id = "header-text" >Patient Info</h1>
+    <div class= "text-right" style = "padding-right:10%">
+        <a href = "home.html"><button type="button" class="btn btn-primary btn-xs"> Home </button></a>
+    </div>      
+    <div class = "container center-box box-color-scheme text-center">
+    <div class = "centered" style = "padding-top:5%; padding-bottom:5%">
+    	<form> 
+    		First Name: <input type="text" name="firstname"><br><br>
+    		Last Name: <input type="text" name="lastname"><br><br>
+    		Sex: <input type="text" name="sex"><br><br>
+    		Age: <input type="text" name="age"><br><br>
+    		Location: <input type="text" name="location"><br><br></form>
+    		<a href = "category.html"><button type = "submit"> Add </button></a>
+    	
+    </div>
+
+    </div>
+
+</body>
+
+
+

@@ -1,0 +1,43 @@
+.box-color-scheme{
+    background-color: #dae8fc
+}
+
+.text-color-scheme{
+    color: #7ea6e0;
+}
+
+#header-text{
+	display:inline-block;
+	margin-left:5%;
+	color:#7ea6e0;
+
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 30px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.center-box{
+	margin:5% auto;
+	width:80%;
+}
+
+
+.box-two{
+    border-radius: 10px;
+    margin:10% auto;
+    width:50%;
+    background: white;
+}
+
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
+}
