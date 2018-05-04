@@ -24,7 +24,7 @@
 
 .center-box{
 	margin:5% auto;
-	width:80%;
+	width:60%;
 }
 
 
@@ -40,4 +40,14 @@
 }
 .alignright{
     float: right;
+}
+
+.table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }

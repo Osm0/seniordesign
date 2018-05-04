@@ -33,3 +33,4 @@ def camera():
     return render_template('camera.html')
 
 
+
