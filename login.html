@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="style.css">
+    <title>Senior Design</title>
+    <link rel="icon"
+        type="image/png"
+        href="favicon-96x96.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script> 
+        $(document).ready(function(){$("body").hide().fadeIn(1000);}); 
+    </script>
+
+</head>
+<body>
+    <div class="jumbotron box-color-scheme" style = "padding-bottom:15">
+        <h2 class = "text-color-scheme" id = "header-text" >LOGIN</h2>      
+    </div>
+    <div class = "container center-box box-color-scheme text-center">
+     <div class = "centered" style = "padding-top:5%; padding-bottom:5%">
+    <div id= "Sign-In">
+            <form method="POST" action="login.php"> 
+                Username <br> <input type="text" name="user" size="40"> <br> <br>
+                Password <br> <input type="password" name="pass" size="40"> <br> <br>
+                <input id="button" type="submit" name="submit" value="Log-In"> 
+            </form> 
+    </div> </div>
+</body> 
+</html> 
+
+
