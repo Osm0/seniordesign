@@ -1,4 +1,5 @@
-from flask import render_template
+from flask import render_template, request
+from werkzeug.exceptions import BadRequest
 from app import app
 
 @app.route('/')
@@ -28,9 +29,20 @@ def search_patient():
 def results():
     return render_template('results.html')
 
-@app.route('/camera.html')
+@app.route('/camera.html', methods = ['GET','POST'])
 def camera():
-    return render_template('camera.html')
+    return render_template('camera.html', type = 'multistix')
+
+@app.route('/camera2.html',methods = ['GET','POST'])
+def camera2():
+    return render_template('camera.html',type = 'pregnancy')
+
+@app.errorhandler(BadRequest)
+def handle_bad_request(e):
+    print("bad request")
+    return render_template('category.html', request = 'bad')
+
+#app.register_error_handler(400, lambda e: 'bad request!')
 
 
 

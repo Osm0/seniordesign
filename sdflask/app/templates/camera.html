@@ -21,6 +21,7 @@
     <div class = "container center-box box-color-scheme text-center">
     <br>
         <div class= "alignleft">
+            {{type}}
             <a href = "home.html"><button type="button" class="btn btn-primary btn-xs"> Home </button></a>
         </div>
 
@@ -37,7 +38,7 @@
             <form action="/upload" method="post" enctype="multipart/form-data" >
             <button type = "button" class="btn btn-default btn-lg"><input type = "file" name = "image" accept = "image/*"> </button></a><br><br>
 
-            <input type="submit" value="Upload your image" class="btn btn-primary">
+            <input type="submit" value="Upload your image" class="btn btn-primary" name = '{{type}}'>
             </form>
             <!--
             <a href = "category.html"><button type = "button" class="btn btn-default btn-lg"> Camera Roll </button></a><br><br>
