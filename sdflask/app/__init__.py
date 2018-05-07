@@ -48,7 +48,13 @@ def upload_file():
     elif 'pregnancy' in request.form:
         print('pregnancy')
         color = cut_pregnancy(f)
+        
+        if color[1] < 200:
+            preggo = 'preggo'
+        else:
+            preggo = 'nah'
+        
+        return render_template('resultsPreg.html', preggo = preggo)
         files = os.listdir('./crop_test')
         delete_files(files)
-        
-        return render_template('category.html',request = 'bad')
+

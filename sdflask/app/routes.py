@@ -37,6 +37,10 @@ def camera():
 def camera2():
     return render_template('camera.html',type = 'pregnancy')
 
+@app.route('/resultsPreg', methods = ['GET', 'POST'])
+def preg_results():
+    return render_template('resultsPreg.html')
+
 @app.errorhandler(BadRequest)
 def handle_bad_request(e):
     print("bad request")
